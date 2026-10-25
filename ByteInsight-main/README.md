@@ -2,8 +2,6 @@
 
 ByteInsight is a full-stack web application for tracking nutrition, managing meals, and monitoring dietary goals. It combines a React frontend with a Spring Boot backend and MySQL database to provide personalized nutrition information and meal management tools.
 
-**Live Demo:** https://vibrant-laughter-production-0250.up.railway.app
-
 ## Features
 
 - **User Authentication:** Account registration and login using JWT-based authentication.
