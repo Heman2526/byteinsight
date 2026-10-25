@@ -1,0 +1,126 @@
+.nut-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.nut-header-wrap {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.nut-title {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
+}
+
+.nut-sub {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-top: 0.35rem;
+}
+
+.mt-2 {
+  margin-top: 0.75rem;
+  display: inline-flex;
+}
+
+.nut-input-card {
+  max-width: 650px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nut-input {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.nut-input input {
+  flex: 1;
+  background-color: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.nut-input input:focus {
+  border-color: var(--brand-primary);
+}
+
+.nut-load {
+  text-align: center;
+  color: var(--brand-primary);
+  font-weight: 600;
+}
+
+.nut-error {
+  text-align: center;
+  color: var(--macro-sodium);
+  font-weight: 600;
+}
+
+.nut-result {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+
+.nut-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.nut-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nut-card-header h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.nut-cal-row {
+  font-size: 1.1rem;
+  color: var(--brand-primary);
+}
+
+.nut-macros-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.nut-pill {
+  background-color: var(--bg-card-subtle);
+  padding: 0.45rem 0.65rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-tag { color: var(--macro-protein); font-weight: 600; }
+.f-tag { color: var(--macro-fat); font-weight: 600; }
+.c-tag { color: var(--macro-carbs); font-weight: 600; }
+.fib-tag { color: var(--macro-fiber); font-weight: 600; }
+
+.nut-micros-list {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 0.65rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}

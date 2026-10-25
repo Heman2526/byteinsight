@@ -1,0 +1,52 @@
+.reg-root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: radial-gradient(circle at 50% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 60%), var(--bg-base);
+}
+
+.reg-panel {
+  width: 100%;
+  max-width: 460px;
+  padding: 2.25rem 2rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.reg-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.reg-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.strength-meter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+  font-size: 0.775rem;
+}
+
+.strength-label {
+  color: var(--text-muted);
+}
+
+.strength-badge {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.strength-strong { color: var(--brand-primary); }
+.strength-medium { color: var(--macro-protein); }
+.strength-weak { color: var(--macro-sodium); }
